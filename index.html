@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Illustrious Calculator</title>
+  </head>
+  <body>
+    <nav>
+      <input type="text" id="Calculator_screen" />
+    </nav>
+    <section>
+      <div>
+        <button onclick="seven()">7</button>
+        <button onclick="eight()">8</button>
+        <button onclick="nine()">9</button>
+      </div>
+      <div>
+        <button onclick="four()">4</button>
+        <button onclick="five()">5</button>
+        <button onclick="six()">6</button>
+      </div>
+      <div>
+        <button onclick="one()">1</button>
+        <button onclick="two()">2</button>
+        <button onclick="three()">3</button>
+      </div>
+      <div>
+        <button onclick="decimal()">.</button>
+        <button onclick="double_zero()">00</button>
+        <button onclick="zero()">0</button>
+      </div>
+    </section>
+    <section id="section_2">
+      <button id="button_2" onclick="del()">C</button>
+      <button id="button_2" onclick="modulus()">%</button>
+      <button id="button_2" onclick="divide()">/</button>
+      <button id="button_2" onclick="multiply()">*</button>
+      <button id="button_2" onclick="minus()">-</button>
+      <button id="button_2" onclick="plus()">+</button>
+      <button id="equal" onclick="equal()">=</button>
+    </section>
+    <p class="end"><b>@Illustrious Codes</b> Calculator</p>
+    <script src="script/script.js"></script>
+  </body>
+</html>

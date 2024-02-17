@@ -1,0 +1,86 @@
+body {
+  background-color: gray;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Calculator_screen {
+  height: 30vh;
+  width: 90%;
+  background-color: rgba(128, 128, 128, 0.314);
+  outline: 4px solid #ffff;
+  font-size: 60px;
+  padding-left: 20px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin-left: 25px;
+  gap: 30px;
+
+  margin-top: 10px;
+}
+
+button {
+  background-color: gray;
+  outline: 4px solid white;
+  color: white;
+  font-size: 50px;
+  border-radius: 30%;
+  margin: 10px;
+
+  height: 11vh;
+  width: 8rem;
+}
+
+#equal {
+  background-color: rgb(3, 228, 3);
+  outline: 4px solid white;
+  color: white;
+  font-size: 80px;
+  border-radius: 30%;
+  margin: 10px;
+
+  height: 6vh;
+  width: 8rem;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-right: 25px;
+  gap: 30px;
+
+  margin-top: 10px;
+}
+
+#button_2 {
+  background-color: gray;
+  outline: 4px solid white;
+  color: rgb(3, 228, 3);
+  font-size: 80px;
+  border-radius: 30%;
+  margin: 1px;
+
+  height: 6vh;
+  width: 8rem;
+}
+
+.end {
+  color: #ffff;
+  font-size: 40px;
+}
