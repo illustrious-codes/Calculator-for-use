@@ -130,3 +130,194 @@ button {
     width: 5rem;
   }
 }
+
+@media screen and (max-width: 414px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 5px;
+    gap: 10px;
+
+    margin-top: 10px;
+  }
+  button {
+    background-color: gray;
+    outline: 4px solid white;
+    color: white;
+    font-size: 50px;
+    border-radius: 30%;
+    margin: 10px;
+
+    height: 8vh;
+    width: 4rem;
+  }
+  #button_2 {
+    background-color: gray;
+    outline: 4px solid white;
+    color: rgb(3, 228, 3);
+    font-size: 35px;
+    border-radius: 30%;
+    margin: 1px;
+    margin-left: 40px;
+
+    height: 6vh;
+    width: 3rem;
+  }
+  #equal {
+    background-color: rgb(3, 228, 3);
+    outline: 4px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 30%;
+    margin: 3px;
+    margin-left: 40px;
+
+    height: 6vh;
+    width: 4rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 5px;
+    gap: 10px;
+
+    margin-top: 10px;
+  }
+  button {
+    background-color: gray;
+    outline: 4px solid white;
+    color: white;
+    font-size: 50px;
+    border-radius: 30%;
+    margin: 10px;
+
+    height: 8vh;
+    width: 4rem;
+  }
+  #button_2 {
+    background-color: gray;
+    outline: 4px solid white;
+    color: rgb(3, 228, 3);
+    font-size: 35px;
+    border-radius: 30%;
+    margin: 1px;
+    margin-left: 40px;
+
+    height: 6vh;
+    width: 3rem;
+  }
+  #equal {
+    background-color: rgb(3, 228, 3);
+    outline: 4px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 30%;
+    margin: 3px;
+    margin-left: 40px;
+
+    height: 6vh;
+    width: 4rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  section {
+    float: left;
+    margin-left: 15px;
+    gap: 20px;
+
+    margin-top: 10px;
+  }
+
+  button {
+    background-color: red;
+    outline: 4px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 30%;
+    margin: 10px;
+
+    height: 7vh;
+    width: 3rem;
+  }
+
+  #equal {
+    background-color: rgb(3, 228, 3);
+    outline: 4px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 30%;
+    margin: 10px;
+
+    height: 6vh;
+    width: 4rem;
+  }
+
+  #button_2 {
+    background-color: gray;
+    outline: 4px solid white;
+    color: rgb(3, 228, 3);
+    font-size: 26px;
+    border-radius: 30%;
+    margin: 2.5px;
+    margin-left: 20px;
+
+    height: 3.5vh;
+    width: 4rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section {
+    float: left;
+    margin-left: 15px;
+    gap: 20px;
+
+    margin-top: 10px;
+  }
+
+  button {
+    background-color: red;
+    outline: 4px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 30%;
+    margin: 10px;
+
+    height: 7vh;
+    width: 3rem;
+  }
+
+  #equal {
+    background-color: rgb(3, 228, 3);
+    outline: 4px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 30%;
+    margin: 10px;
+
+    height: 6vh;
+    width: 4rem;
+  }
+
+  #button_2 {
+    background-color: gray;
+    outline: 4px solid white;
+    color: rgb(3, 228, 3);
+    font-size: 20px;
+    border-radius: 30%;
+    margin: 4.5px;
+
+    height: 3.5vh;
+    width: 5rem;
+  }
+}
